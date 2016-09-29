@@ -5,6 +5,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.wyatt.activity.MainActivity">
 
     <ImageView
@@ -12,5 +13,11 @@
         android:src="@mipmap/ic_launcher"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="center"
+        android:id="@id/tvGlide"
+        android:text="我的图片"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
 
 </LinearLayout>
